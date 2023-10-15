@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        .a{
+    border-style: solid;
+    background-color: pink;
+}
+.b{
+    border-style: solid;
+    background-color: black;
+}
+.chess{
+    width: 100%;
+    height: 500px;
+    border-collapse: collapse;
+    
+}
+.borderi{
+    border: 8px;
+    width: 500px;
+    height: auto; 
+    border-style: solid;
+    padding: 4px;
+}
+
+@media (min-width: 769px) {
+    body {
+      font-size: 20px;
+      background-color: lightgray;
+      .p{
+        background-color: pink;
+        float: right;
+        width: 88%;
+        height: 548px;
+        margin: 2px;
+        }
+        .gr{
+            border-style: hidden;
+            background-color: orange;
+            color: white;
+            height: 100px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .tx{
+            padding: 12px;
+            font-size: 70px;
+        }
+        .h{
+            border: 2px;
+            border-style: solid;
+            width: 200px;
+            border-color: red;
+            background-color: green;
+            padding: 5px;
+            height: 25px;
+            border-radius: 5px;
+            color: white;
+            display: block;
+            margin: 2px;
+        }
+        .bg{
+            background-color: black;
+            width: 100%;
+            height: 650px;
+        }
+        
+        .g{
+            background-color: grey;
+            width: 100%;
+            height: 175px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    body {
+      font-size: 14px;
+      background-color: red;
+      .p{
+        background-color: pink;
+        float: right;
+        width: 68%;
+        height: 548px;
+        margin: 2px;
+    }
+    .gr{
+        border-style: hidden;
+        background-color: orange;
+        color: white;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tx{
+        padding: 12px;
+        font-size: 50px;
+    }
+    .h{
+        border: 2px;
+        border-style: solid;
+        width: 200px;
+        border-color: red;
+        background-color: green;
+        padding: 5px;
+        height: 25px;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        margin: 2px;
+    }
+    .bg{
+        background-color: black;
+        width: 100%;
+        height: 650px;
+    }
+    
+    .g{
+        background-color: grey;
+        width: 100%;
+        height: 175px;
+    }
+    }
+}
+    </style>
+</head>
+<body>
+<div class="borderi">
+    <table class="chess">
+        <tr>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+        </tr>
+        <tr>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+        </tr>
+        <tr>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+        </tr>
+        <tr>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+        </tr>
+        <tr>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+        </tr>
+        <tr>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+        </tr>
+        <tr>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+        </tr>
+        <tr>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+            <td class="b"> </td>
+            <td class="a"> </td>
+        </tr>
+    </table>
+</div>
+<div class="bg">
+    <div class="gr">
+        <h1 class="tx">Online Exam System</h1>
+    </div>
+    <p class="p"></p>
+    <p class="h">Home</p>
+    <p class="h">About Us</p>
+    <p class="h">Courses</p>
+    <p class="h">Product</p>
+    <p class="h">Service</p>
+    <p class="h">Gallery</p>
+</div>
+<div class="g"> </div>
+</body>
+</html>
